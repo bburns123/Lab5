@@ -13,7 +13,7 @@ package com.mycompany.lab5;
 public class GreaterThanN {
     public static void arrayMethod(int array[], int n) {
         
-        for (int counter = 1; counter < array.length; counter++) {
+        for (int counter = 0; counter < array.length; counter++) {
             if (array[counter] > n) {
                 System.out.println(array[counter] + " is greater than " + n);
             }
