@@ -17,11 +17,10 @@ public class TestScoresDemo {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Double> testScoresArray = new ArrayList<>();
         
-        testScoresArray.add(40.6);
-        testScoresArray.add(60.9);
-        testScoresArray.add(73.4);
-        testScoresArray.add(84.2);
-        testScoresArray.add(99.99);
+        for (int counter = 0; counter < 5; counter ++) {
+            double doubleHolder = scanner.nextDouble();
+            testScoresArray.add(doubleHolder);
+        }
 
         try{
             TestScores array = new TestScores(testScoresArray);
