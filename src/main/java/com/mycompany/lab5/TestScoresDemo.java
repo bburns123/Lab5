@@ -17,6 +17,7 @@ public class TestScoresDemo {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Double> testScoresArray = new ArrayList<>();
         
+        System.out.println("Please enter 5 test scores");
         for (int counter = 0; counter < 5; counter ++) {
             double doubleHolder = scanner.nextDouble();
             testScoresArray.add(doubleHolder);
